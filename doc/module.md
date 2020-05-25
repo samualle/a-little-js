@@ -1,0 +1,5 @@
+- 注意区分 `Object` 和 `Map`，只有模拟现实世界的实体对象时，才使用 `Object`t。如果只是需要 `key:value` 的数据结构，使用 `Map` 结构。因为 Map 有内建的遍历机制。
+- `Module` 语法是 `JavaScript` 模块的标准写法，应该坚持使用这种写法。使用 `import` 取代 `require`。
+- 使用 `export` 取代 `module.exports`。
+- 如果模块默认输出一个函数，函数名的首字母应该小写。
+- 如果模块默认输出一个对象，对象的首字母应该大写。
